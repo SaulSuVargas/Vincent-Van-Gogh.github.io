@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html{
+    font-size: 15px;
+}
+body{
+  text-align: center;
+  background: white;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+  'Helvetica Neue', Arial, sans-serif;
+}
+
+h1{
+  font-family: Roboto;
+  font-size: 45px;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-family: Roboto;
+}
+
+h3{
+    font-size: 2.5rem;
+    font-family: Roboto;
+}
+
+.container{
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 2rem;
+}
+
+#tribute-info{
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+#item1{
+    background-image: url(https://i.pinimg.com/564x/ec/b4/52/ecb4527a96f29aa85923e40439eaefcd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 5px 12px black;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+}
+
+#item2{
+    background-image: url(https://i.pinimg.com/564x/80/02/93/8002936bbb3cd88cf596d029f473422c.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 5px 12px black;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+}
+
+#item3{
+    background-image: url(https://i.pinimg.com/564x/8f/2d/ce/8f2dce41ec312ac5ba822f9896b21a6f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 5px 12px black;
+    width: 300px;
+    height: 400px;
+    margin: 40px;
+}
+
+@media (max-width: 360px) {
+    h1 {
+      font-size: 3rem;
+      line-height: 1.2;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .container {
+        display: grid;
+        justify-content: center;
+        float: center;
+        padding: 0;
+        margin: 2;
+    }
+  }
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+    justify-items: center;
+  }
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+
+#image{
+    display: block;
+    height: auto;
+    margin: 0% auto;
+    max-width: 100%;
+    box-shadow: 3px 5px 12px black;
+}
+
+#img-div{
+    background-color: white;
+    padding: 17px;
+    margin: 0%;
+}
+
+#img-caption{
+    margin: 15px 0 2px 0;
+}
+
+#biography{
+    margin: 50px 0;
+    text-align: center;
+}
+
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+
+li{
+    margin: 16px 0;
+}
+
+blockquote{
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    
+}
